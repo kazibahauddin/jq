@@ -1,0 +1,155 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 575.98px) {
+    
+    body{
+        overflow-x: hidden;
+    }
+    .welcome p{
+        text-align: center;
+        font-size: 24px;
+    }
+    .icon{
+        display: none;
+    }
+    
+/*    navigation bar responsive start*/
+    .navbar-light .navbar-toggler {
+        border-color: red;
+    }
+    .navbar-nav{
+        margin-top: 10px;
+    }
+    .navbar-nav .nav-item.active .nav-link,
+    .navbar-nav .nav-item .nav-link{
+        text-align: center;
+        background-color: green;
+        border-bottom: 2px solid #fff;
+        color: #fff;
+    }
+/*    navigation bar responsive end*/
+    
+/*    banner part responsive start */
+    .banner_con{
+        text-align: center;
+    }
+    .banner_con h1 {
+    font-size: 32px;
+        padding-bottom: 4px;
+}
+    
+    .banner_con p {
+    font-size: 12px;
+    line-height: 22px;
+}
+    .d_none{
+        display: none;
+    }
+/*    banner part responsive end*/
+    
+    .big_img {
+    margin-bottom: 20px;
+}
+    .round {
+    margin-top: 10px;
+}
+    
+    .piramid {
+    top: 34%;
+    left: 44%;
+
+}
+    
+/*    footer part responsive start */
+   
+    .f_logo{
+        text-align: center;
+    }
+    .f_common_head h4{
+        text-align: center;
+    }
+    
+    .f_icon a{
+        margin-left: 70px;
+        display: block;
+    }
+    .f_icon_con p {
+    margin-left: 50px;
+}
+    
+    .f_menu a{
+        margin-left: 60px;
+        display: block;
+    }
+/*    footer part responsive end*/
+    
+    
+    
+    
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+    /*    navigation bar responsive start*/
+    .navbar-light .navbar-toggler {
+        border-color: red;
+    }
+    .navbar-nav{
+        margin-top: 10px;
+    }
+    .navbar-nav .nav-item.active .nav-link,
+    .navbar-nav .nav-item .nav-link{
+        text-align: center;
+        background-color: green;
+        border-bottom: 2px solid #fff;
+        color: #fff;
+    }
+/*    navigation bar responsive end*/
+    
+    .banner_con{
+        text-align: center;
+    }
+    
+    .sm_respon{
+        padding-bottom: 40px;
+    }
+    .big_img{
+        margin-bottom: 20px;
+    }
+    
+    .piramid {
+    top: 31%;
+    left: 43%;
+}
+   .f_logo{
+        text-align: center;
+    }
+    .f_common_head h4{
+        text-align: center;
+    } 
+    
+    
+    .f_icon a{
+        margin-left: 70px;
+        display: block;
+    }
+    .f_icon_con p {
+    margin-left: 50px;
+}
+    
+    .f_menu a{
+        margin-left: 60px;
+        display: block;
+    }
+    
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
